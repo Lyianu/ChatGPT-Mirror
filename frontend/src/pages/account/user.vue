@@ -391,12 +391,15 @@ const rules: FormProps['rules'] = {
 };
 
 const modelList = [
-  { label: 'GPT-4', value: 'gpt-4' },
+//  { label: 'GPT-4', value: 'gpt-4' },
   { label: 'GPT-4o', value: 'gpt-4o' },
-  { label: 'GPT-4o-mini', value: 'gpt-4o-mini' },
-  { label: 'o1-mini', value: 'o1-mini' },
-  { label: 'o1', value: 'o1' },
-  { label: 'o1-pro', value: 'o1-pro' },
+  { label: 'GPT-4.1', value: 'gpt-4-1' },
+  { label: 'GPT-4.5', value: 'gpt-4-5' },
+  { label: 'GPT-4.1-mini', value: 'gpt-4-1-mini' },
+  { label: 'o4-mini', value: 'o4-mini' },
+  { label: 'o4-mini-high', value: 'o4-mini-high' },
+  { label: 'o3', value: 'o3' },
+//  { label: 'o1-pro', value: 'o1-pro' },
 
 ];
 

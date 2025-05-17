@@ -33,12 +33,15 @@ if __name__ == "__main__":
         "is_active": False,
         "isolated_session": True,
         "model_limit": [
-            {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4"},
+            # {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4"},
             {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4o"},
-            {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4o-mini"},
-            {"every_minute": 1, "limit_count": 1, "model_name": "o1-mini"},
-            {"every_minute": 1, "limit_count": 1, "model_name": "o1", },
-            {"every_minute": 1, "limit_count": 1, "model_name": "o1-pro", }
+            {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4-1"},
+            {"every_minute": 1, "limit_count": 3, "model_name": "gpt-4-1-mini"},
+            {"every_minute": 1, "limit_count": 1, "model_name": "o4-mini"},
+            {"every_minute": 1, "limit_count": 1, "model_name": "o4-mini-high"},
+            {"every_minute": 1, "limit_count": 1, "model_name": "gpt-4-5"},
+            {"every_minute": 1, "limit_count": 1, "model_name": "o3", },
+            # {"every_minute": 1, "limit_count": 1, "model_name": "o1-pro", }
 
         ]
     }
